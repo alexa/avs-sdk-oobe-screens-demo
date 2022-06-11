@@ -1,0 +1,15 @@
+{
+    "en_US": {
+        "splash": {
+            "line1": "Your device includes Alexa!",
+            "line2": "Alexa allows you to use your voice to hear the news, check weather, control your smart home, and more.",
+            "bt_cta": "Get Started",
+            "bt_back": "Cancel"
+        },
+        "cbl": {
+            "line1": "Setup Amazon Alexa",
+            "line2": "Use your phone or mobile device to scan the QR code on the right. Or visit https://amazon.com/us/code and enter this code:",
+            "bt_back": "Back"
+        }
+    }
+}

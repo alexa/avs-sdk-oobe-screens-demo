@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet" >
+ 
+   <!-- App CSS -->
+   <link href="css/main.css" rel="stylesheet"> 
+</head>
+ <body>
+    <div id="root" style="display: none;">
+       <h1 class="position-absolute top-50 start-50 translate-middle">Device UI</h1>
+    </div>
+   <div id="ss_sdk_oobe">
+
+      <div class="container" id="screen-default-0">
+
+         <div class="row p-5">
+            <div class="col-sm-12">
+   
+               <div class="top clearfix row">
+                  <div class="col-sm-2">
+                     <button type="button" class="btn btn-secondary" id="bt_back">Back</button>
+                  </div>
+                  <div class="col-sm-8 text-center" id="cbl_static_nav">
+                        <button id="bt_splash" type="button" class="btn bt-sml btn-outline-secondary">Splash</button>
+                        <button id="bt_cbl" type="button" class="btn btn-outline-secondary">CBL Code</button>
+                        <button id="bt_ttt" type="button" class="btn btn-outline-secondary">Things-to-Try</button>
+                        <button id="bt_error" type="button" class="btn btn-outline-secondary">Error</button>
+                  </div>
+                  <div class="col-sm-2 text-end">
+                     <button type="button" class="btn btn-secondary" id="bt_done">Done</button>
+                  </div>
+               </div>
+   
+   
+               <div class="body-content">
+                  <div class="text-center">
+                     <img class="img-fluid" id="amazon_alexa_logo" src="img/Amz_Alexa_Logo_RGB_WHITE.png" alt="Alexa logo">
+                  </div>
+            
+                  <div class="screen-step" id="screen_default_0">
+                     <h1>Your device includes Alexa!</h1>
+                     <p>
+                        Alexa allows you to use your voice to hear the news, <br>
+                        check weather, control your smart home and more.
+                     </p>
+                     <button id="bt_sign_in" type="button" class="btn btn-primary">Sign-in with Amazon</button>
+                  </div>
+            
+                  <div class="screen-step" id="screen_default_cbl">
+                     <div class="row">
+                        <div class="col-8">
+                           <h1>Setup Amazon Alexa</h1>
+                           <p>
+                              Use your phone or mobile device to scan the QR code on the right. 
+                              <br>
+                              Or visit <span id="cbl_url"></span> and enter this code:
+                           </p>
+                           <h2 id="cbl_code"></h2>
+         
+                        </div>
+                        <div class="col-4">
+                           <div id="qrcode"></div>
+                        </div>
+                     </div>
+                  </div>
+   
+                  <div class="screen-step" id="screen_default_success">
+                     <div class="text-center">
+                        <p>
+                           You're ready to use Alexa. Here are some thing to try:
+                        </p>
+                        <div class="row">
+                           <h4> 
+                              <span class="badge bg-primary things-to-try">Alexa, play some jazz music</span>
+                              <span class="badge bg-primary things-to-try">Alexa, play my flash briefing</span>
+                              <span class="badge bg-primary things-to-try">Alexa, what's your favorite movie?</span>
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+            
+                  <div class="screen-step text-center" id="screen_default_error">
+                     <div id="screen_default_error_text"></div>
+                  </div>
+
+   
+               </div>
+   
+            </div>
+         </div>
+   
+      </div>
+   
+   </div>
+   <!-- JS Libs -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/qrcode.js" defer></script>
+
+   <!-- App JS -->
+   <script type="text/javascript" src="js/static.js"></script>
+ </body>
+</html> 

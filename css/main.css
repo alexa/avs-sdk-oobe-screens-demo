@@ -1,0 +1,97 @@
+/* fonts
+-------------------------------*/
+@font-face {
+    font-family: AmazonEmberDisplay_Lt;
+    src: url('https://d1gkjrhppbyzyh.cloudfront.net/AmazonEmberDisplay_Lt.ttf');
+}
+@font-face {
+    font-family: Bookerly_Italic;
+    src: url('https://d1gkjrhppbyzyh.cloudfront.net/Bookerly-Italic.ttf');
+}
+
+/* styles
+-------------------------------*/
+
+body {
+    background-color: #1A2731;
+    color: #DADADA;
+    font-family: AmazonEmberDisplay_Lt;
+}
+
+#amazon_alexa_logo {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.body-content {
+    margin: 5% 0 5% 0;
+}
+
+#bt_done {
+    display: none;
+}
+
+#screen_default_0 {
+    text-align: center;
+}
+
+#screen_default_cbl {
+    display: none;
+}
+
+#screen_default_success {
+    display: none;
+}
+
+#cbl_url {
+    color: #00CAFF;
+    font-weight: bold;
+}
+
+#cbl_code {
+    color: #00CAFF;
+    font-size: 3.5em;
+}
+
+#pnl_debug_info pre {
+    color: #6c757d;
+}
+
+#pnl_debug_info pre {
+    margin-top: 40px;
+    background-color: #2a3842;
+    color: #6c757d;
+    padding: 10px;
+}
+
+#qrcode img {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cbl-controls {
+    margin: 20px 0 0 0;
+}
+
+.things-to-try {
+    font-family: Bookerly_Italic;
+}
+
+/* Bootstrap overrides
+-------------------------------*/
+
+.bg-primary {
+    background-color: #00CAFF!important;
+}
+
+.btn-primary {
+    background-color: #00CAFF;
+    border-color: #00CAFF;
+}
+
+
+.btn-primary:active, .btn-primary:hover {
+    background-color: #008cff;
+    border-color: #008cff;
+}
