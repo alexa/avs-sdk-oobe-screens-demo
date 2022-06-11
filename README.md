@@ -12,7 +12,7 @@ This demo provides registration flow (OOBE or Out of Box Experience) for the [AV
 ## Static demo
 Static client app demo: this demo shows all main expected screens and can be accessed by opening /static.html. The corresponding js file is /js/static.js and uses mocked data to emulate the interaction with the Smart Screen SDK app. In a real integration, the CBL (Code Based Linking) code is generated and passed by the Smart Screen SDK. In this static demo, the CBL code is hard-coded.
 
-[View the static demo with HTML Preview](https://htmlpreview.github.io/?https://github.com/ludogoarin/AVS-OOBE-Screens-Demo/blob/main/static.html)
+[View the static demo with HTML Preview](https://htmlpreview.github.io/?https://github.com/alexa/avs-sdk-oobe-screens-demo/blob/main/static.html)
 
 ## Smart Screen SDK Integration
 For a demo that integrates with the Smart Screen SDK app, the client application can be accessed by opening /ss-sdk.html. The corresponding js file is /js/ss-sdk-oobe.js
